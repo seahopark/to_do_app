@@ -3,7 +3,6 @@
     "name": "todo",
     "slug": "todo",
     "privacy": "public",
-    "sdkVersion": "35.0.0",
     "platforms": [
       "ios",
       "android",
@@ -23,13 +22,13 @@
       "**/*"
     ],
     "ios": {
-      "icon":"./assets/ios-icon.png",
+      "icon": "./assets/ios-icon.png",
       "supportsTablet": true
     },
     "android": {
-      "package":"my.minimal.todo",
-      "icon":"./assets/android-icon.png",
-      "adaptiveIcon":{
+      "package": "my.minimal.todo",
+      "icon": "./assets/android-icon.png",
+      "adaptiveIcon": {
         "backgroundColor": "#6830CF",
         "foregroundImage": "./assets/android-foreground.png"
       }
